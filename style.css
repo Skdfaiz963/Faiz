@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe0b2; /* Light Orange/Peach color */
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+}
+
+header h1 {
+    color: #e91e63; /* Pink/Fuchsia color for flair */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#countdown-timer {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #00bcd4; /* Cyan color */
+    margin-bottom: 20px;
+}
+
+#wish-button {
+    background-color: #ff9800; /* Orange color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#wish-button:hover {
+    background-color: #f57c00; /* Darker orange on hover */
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-style: italic;
+    color: #777;
+}
